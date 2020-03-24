@@ -12,9 +12,10 @@ about-description: Passionate R&D leader focused on building high caliber softwa
   <br> My Interests
   <ul>
   <li>Building awesome development organizations based on agile practices</li>
+  <li>SaaS, mobile and web development</li>
   <li>DevOps, continuous delivery and infrastructure as code</li>
-  <li>IoT and Home Automation with <a href="http://openhab.org"><img height="25px" style="vertical-align:middle" alt="openHAB!" src="/assets/img/openhab-logo.png"/>  </a></li>
   <li>Linux, containers and Kubernetes</li>
+  <li>IoT, home and industrial automation with <a href="http://openhab.org"><img height="25px" style="vertical-align:middle" alt="openHAB!" src="/assets/img/openhab-logo.png"/></a></li>
   </ul>
 
 pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below

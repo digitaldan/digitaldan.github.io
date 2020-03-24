@@ -1,0 +1,57 @@
+title: Dan Cunningham
+description: Software and Technolgy Leader 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+blog_theme: dark # Or use dark
+
+# Profile information
+name: Dan Cunningham
+tagline: CTO, SVP and all around geek. 
+about-description: Passionate R&D leader focused on building high caliber software engineering organizations with a culture of innovation, curiosity and a love of building great software and technology.<br>
+  <br> My Interests
+  <ul>
+  <li>Building awesome development organizations based on agile practices</li>
+  <li>DevOps, continuous delivery and infrastructure as code</li>
+  <li>IoT and Home Automation with <a href="http://openhab.org"><img height="25px" style="vertical-align:middle" alt="openHAB!" src="/assets/img/openhab-logo.png"/>  </a></li>
+  <li>Linux, containers and Kubernetes</li>
+  </ul>
+
+pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+
+# Contact links
+email: dan@digitaldan.com # Add your Email address
+#phone: 044 825 5523 # Add your Phone number
+website: digitaldan.com # Add your website, do not add http://
+linkedin: cunninghamdan # Add your Linkedin handle
+github: digitaldan # Add your Github handle
+twitter: '@digitaldaniel' # Add your Twitter handle
+
+# Tracker
+analytics:
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Important settings
+assets:
+  sources:
+    - assets/fonts
+    - assets/img
+    - assets/js
+    - assets/stylesheets
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+include: [_pages]

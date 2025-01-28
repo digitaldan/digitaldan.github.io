@@ -18,7 +18,7 @@ about-description: Passionate R&D leader focused on building high caliber softwa
   <li>IoT, home and industrial automation with <a href="http://openhab.org"><img height="25px" style="vertical-align:middle" alt="openHAB!" src="/assets/img/openhab-logo.png"/></a></li>
   </ul>
 
-pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+pic: headshot-2024.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
 # Contact links
 email: dan@digitaldan.com # Add your Email address

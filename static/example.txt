@@ -1,0 +1,2 @@
+This is a sample static file. You should be able to access it at /static/example.txt after building/serving the site.
+

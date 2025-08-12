@@ -1,5 +1,5 @@
 title: Dan Cunningham
-description: Software and Technolgy Leader 
+description: Software and Technology Leader 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ':title/'
@@ -12,6 +12,7 @@ about-description: Passionate R&D leader focused on building high caliber softwa
   <br> My Interests
   <ul>
   <li>Building awesome development organizations based on agile practices</li>
+  <li>Generative AI, machine learning and agentic systems</li>
   <li>SaaS, mobile and web development</li>
   <li>DevOps, continuous delivery and infrastructure as code</li>
   <li>Linux, containers and Kubernetes</li>

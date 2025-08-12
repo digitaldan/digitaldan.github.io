@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matter OTBR ESP32‑S3 Web Flasher</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    :root { --bg: #0b1020; --card:#101935; --text:#eaf2ff; --muted:#9db0d5; }
+    *{ box-sizing:border-box; }
+    body { margin:0; font:14px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--text); background: radial-gradient(1200px 800px at 70% -10%, #15224b 0, #0b1020 50%); }
+    header { padding:28px 20px 10px; text-align:center; }
+    header h1 { margin:0; font-size:28px; letter-spacing:.3px; }
+    header p { margin:6px 0 0; color:var(--muted); }
+    .wrap { max-width: 740px; margin: 18px auto 60px; padding: 0 16px; }
+    .card { background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:16px; padding:18px; box-shadow: 0 10px 30px rgba(0,0,0,.25); text-align:center; }
+    .tips { color:var(--muted); font-size:13px; margin-top:10px; }
+    img.board { max-width:100%; border-radius:12px; margin-top:16px; border:1px solid rgba(255,255,255,.08); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Matter OTBR ESP32‑S3 Web Flasher</h1>
+    <p>Flash the latest Matter OTBR firmware to your ESP32‑S3 device directly from your browser.</p>
+  </header>
+
+  <div class="wrap">
+    <div class="card">
+      <esp-web-install-button manifest="./firmware.json"></esp-web-install-button>
+      <p class="tips">Use Chrome, Edge, or another Chromium-based browser on desktop. Connect your ESP32‑S3 device via USB and click Install. You may need to hold the BOOT button on your board when connecting.</p>
+      <p class="tips">If your board does not look like the one in the image, this is likely not the correct firmware.  Use at your own risk.</p>
+      <p class="tips">Use USB port 2 (USB2  ) on the ESP32‑S3 device with the USB-C cable.</p>
+      <img src="./otbr-esp-br-board.jpg" alt="ESP32-S3 Board" class="board" />
+    </div>
+  </div>
+</body>
+</html>
